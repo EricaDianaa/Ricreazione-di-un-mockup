@@ -145,18 +145,18 @@
       </div>
     </nav>
     <!-- HEADER -->
-    <header class="container">
+    <header class="container-fluid">
       <div
-        class="row d-sm-flex flex-column align-items-center w-100 flex-lg-row"
+        class="row d-sm-flex flex-column align-items-center justify-content-center w-100 flex-lg-row"
       >
-        <div id="blue" class="col col-5 text-light p-5">
+        <div id="blue" class="col col-8 text-light p-5">
           <h1>Welcome Web Students!</h1>
           <p>
             Hand-picked Instuctior and exspertly crafted <br />
             courses, designed for the modern studens and <br />
             entrepreneur
           </p>
-          <div class="col flex-column align-items-center">
+          <div class="col d-flex flex-row align-items-center">
             <button id="button" type="button" class="btn btn-primary btn-lg">
               Browse courses
             </button>
@@ -165,7 +165,10 @@
             </button>
           </div>
         </div>
-        <div id="blue" class="col col-7">
+        <div
+          id="blue"
+          class="col col-3 d-sm-flex flex-column align-items-center justify-content-center"
+        >
           <img src="assets/hero-img.png" alt="" />
         </div>
       </div>
@@ -177,13 +180,13 @@
     >
       <div class="row">
         <div class="col col-12 col-lg-4">
-          <p class="fw-bold">
+          <div class="d-flex align-items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
+              width="70"
+              height="70"
               fill="currentColor"
-              class="bi bi-camera-video border border-warning p-1 rounded-5 bg-warning text-danger-emphasis"
+              class="bi bi-camera-video border border-warning p-4 me-4 rounded-5"
               viewBox="0 0 16 16"
             >
               <path
@@ -191,36 +194,44 @@
                 d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"
               />
             </svg>
-            30,000 online courses
-          </p>
-          <p>Enjoy a variety of fresh topics</p>
+            <div>
+              <p class="fw-bold">
+                30,000 online courses
+              </p>
+              <p>Enjoy a variety of fresh topics</p>
+            </div>
+          </div>
         </div>
         <div class="col col-12 col-lg-4">
-          <p class="fw-bold">
+          <div class="d-flex align-items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
+              width="70"
+              height="70"
               fill="currentColor"
-              class="bi bi-people border border-warning p-1 rounded-5 bg-warning text-danger-emphasis"
+              class="bi bi-people border border-warning p-4 me-4 rounded-5"
               viewBox="0 0 16 16"
             >
               <path
                 d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"
               />
             </svg>
-            Exspert instruction
-          </p>
-          <p>Find the right instruction for you</p>
+            <div>
+              <p class="fw-bold">
+                Exspert instruction
+              </p>
+              <p>Find the right instruction for you</p>
+            </div>
+          </div>
         </div>
         <div class="col col-12 col-lg-4">
-          <p class="fw-bold">
+          <div class="d-flex align-items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
+              width="70"
+              height="70"
               fill="currentColor"
-              class="bi bi-clock border border-warning p-1 rounded-5 bg-warning text-danger-emphasis"
+              class="bi bi-clock border border-warning p-4 rounded-5 me-4"
               viewBox="0 0 16 16"
             >
               <path
@@ -230,9 +241,13 @@
                 d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
               />
             </svg>
-            Lifetime access
-          </p>
-          <p>Learb on your schedule</p>
+            <div>
+              <p class="fw-bold">
+                Lifetime access
+              </p>
+              <p>Learb on your schedule</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -283,7 +298,7 @@
                 </svg>
                 Advance
               </p>
-              <p class="card-text">
+              <p id="star" class="card-text">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -347,9 +362,12 @@
               </p>
               <p class="card-text">$550 $700</p>
             </div>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+            <div class="card-body border-top">
+              <p>
+                <img class="w-25 rounded-5" src="assets/avatar-5.jpg " alt="" />
+                Brooklyn Simmons
+              </p>
+              <p></p>
             </div>
             <!-- 2 -->
           </div>
@@ -396,7 +414,7 @@
                 </svg>
                 Advance
               </p>
-              <p>
+              <p id="star">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -462,13 +480,15 @@
               <p>$700 $850</p>
             </div>
             <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <p>
+                <img class="w-25 rounded-5" src="assets/avatar-1.jpg " alt="" />
+                Jenny Wilson
+              </p>
             </div>
             <!-- 3 -->
           </div>
         </div>
-        <div class="col col-xl-3 col-sm-6">
+        <div class="col col-xl-3 d-sm-none d-md-block">
           <div class="card">
             <img src="assets/course-node.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
@@ -506,7 +526,7 @@
                 </svg>
                 intermediate
               </p>
-              <p>
+              <p id="star">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -572,13 +592,17 @@
               <p>$800 $959</p>
             </div>
             <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <p>
+                <img class="w-25 rounded-5" src="assets/avatar-3.jpg" alt="" />
+                Sina Ray
+              </p>
+              <p></p>
             </div>
             <!-- 4 -->
           </div>
         </div>
-        <div class="col col-xl-3 col-sm-6">
+
+        <div class="col col-xl-3 col-sm-6 d-sm-none d-md-block">
           <div class="card">
             <img
               src="assets/course-laravel.jpg"
@@ -620,7 +644,7 @@
                 </svg>
                 Beginner
               </p>
-              <p>
+              <p id="star">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -685,17 +709,23 @@
               <p>$170 $220</p>
             </div>
             <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <p>
+                <img class="w-25 rounded-5" src="assets/avatar-7.jpg" alt="" />
+                Sobo Rikhan
+              </p>
+              <p></p>
             </div>
           </div>
         </div>
         <!-- 5 -->
+        <h2>Most Popular</h2>
         <div class="col col-xl-3 col-sm-6">
           <div class="card">
             <img src="assets/course-html.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">
+                HTML Full Course-Build a website Tutorial
+              </h5>
               <p class="card-text">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -712,7 +742,7 @@
                     d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
                   />
                 </svg>
-                2h 40m
+                3h 16m
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -725,9 +755,9 @@
                     d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"
                   />
                 </svg>
-                Advance
+                Beginner
               </p>
-              <p>
+              <p id="star">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -789,10 +819,14 @@
                   />
                 </svg>
               </p>
+              <p>$550 $700</p>
             </div>
             <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <p>
+                <img class="w-25 rounded-5" src="assets/avatar-4.jpg" alt="" />
+                Miston Wilson
+              </p>
+              <p></p>
             </div>
           </div>
         </div>
@@ -805,7 +839,9 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">
+                A complete Beginner's Guide to Javascript
+              </h5>
               <p class="card-text">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -822,7 +858,7 @@
                     d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
                   />
                 </svg>
-                2h 40m
+                4h 10m
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -837,7 +873,7 @@
                 </svg>
                 Advance
               </p>
-              <p>
+              <p id="star">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -899,19 +935,25 @@
                   />
                 </svg>
               </p>
+              <p>$700 $850</p>
             </div>
             <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <p>
+                <img class="w-25 rounded-5" src="assets/avatar-1.jpg" alt="" />
+                Jenny Wilson
+              </p>
+              <p></p>
             </div>
           </div>
         </div>
         <!-- 7 -->
-        <div class="col col-xl-3 col-sm-6">
+        <div class="col col-xl-3 col-sm-6 d-sm-none d-md-block">
           <div class="card">
             <img src="assets/course-node.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">
+                Beginning Node.js Express &MongoDB Development
+              </h5>
               <p class="card-text">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -928,7 +970,7 @@
                     d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
                   />
                 </svg>
-                2h 40m
+                2h 00m
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -941,9 +983,9 @@
                     d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"
                   />
                 </svg>
-                Advance
+                Intermediate
               </p>
-              <p>
+              <p id="star">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -1005,19 +1047,25 @@
                   />
                 </svg>
               </p>
+              <p>$800 $959</p>
             </div>
             <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <p>
+                <img class="w-25 rounded-5" src="assets/avatar-3.jpg" alt="" />
+                Sina Ray
+              </p>
+              <p></p>
             </div>
           </div>
         </div>
         <!-- 8 -->
-        <div class="col col-xl-3 col-sm-6">
+        <div class="col col-xl-3 col-sm-6 d-sm-none d-md-block">
           <div class="card">
             <img src="assets/course-react.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">
+                How to easy create a website with React
+              </h5>
               <p class="card-text">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -1034,7 +1082,7 @@
                     d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
                   />
                 </svg>
-                2h 40m
+                3h 55m
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -1049,7 +1097,8 @@
                 </svg>
                 Advance
               </p>
-              <p>
+              <p>$600 $750</p>
+              <p id="star">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -1113,13 +1162,17 @@
               </p>
             </div>
             <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <p>
+                <img class="w-25 rounded-5" src="assets/avatar-2.jpg" alt="" />
+                April Noms
+              </p>
+              <p></p>
             </div>
           </div>
         </div>
-        <!-- 8 -->
-        <div class="col col-xl-3 col-sm-6">
+        <!-- 9 -->
+        <h2>Trending</h2>
+        <div class="col col-xl-3 col-sm-6 d-sm-none d-md-block">
           <div class="card">
             <img
               src="assets/course-gatsby.jpg"
@@ -1127,7 +1180,7 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Revolutionize how you build the web</h5>
               <p class="card-text">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -1144,7 +1197,7 @@
                     d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
                   />
                 </svg>
-                2h 40m
+                1h 46m
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -1157,189 +1210,89 @@
                     d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"
                   />
                 </svg>
-                Advance
+                intermediate
               </p>
+              <p>$800 $850</p>
+              <p id="star">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-star-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-star-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-star"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-star"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-star"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
+                  />
+                </svg>
+              </p>
+            </div>
+            <div class="card-body">
               <p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-star-fill"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-star-fill"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-star"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-star"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-star"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
-                  />
-                </svg>
+                <img class="w-25 rounded-5" src="assets/avatar-6.jpg" alt="" />
+                Jenny Wilson
               </p>
-            </div>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
-        </div>
-        <!-- 9 -->
-        <div class="col col-xl-3 col-sm-6">
-          <div class="card">
-            <img src="assets/course-html.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  class="bi bi-clock"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
-                  />
-                  <path
-                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
-                  />
-                </svg>
-                2h 40m
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-bar-chart"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"
-                  />
-                </svg>
-                Advance
-              </p>
-              <p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-star-fill"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-star-fill"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-star-fill"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-star"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-star"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
-                  />
-                </svg>
-              </p>
-            </div>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <p></p>
             </div>
           </div>
         </div>
         <!-- 10 -->
-        <div class="col col-xl-3 col-sm-6">
+        <div class="col col-xl-3 col-sm-6 d-sm-none d-md-block">
           <div class="card">
-            <img src="assets/course-node.jpg" class="card-img-top" alt="..." />
+            <img src="assets/course-html.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">
+                HTML Full Course-Build a website Tutorial
+              </h5>
               <p class="card-text">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -1356,7 +1309,7 @@
                     d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
                   />
                 </svg>
-                2h 40m
+                3h 16m
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -1369,9 +1322,121 @@
                     d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"
                   />
                 </svg>
-                Advance
+                Beginner
               </p>
+              <p>$550 $700</p>
+              <p id="star">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-star-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-star-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-star-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-star"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-star"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"
+                  />
+                </svg>
+              </p>
+            </div>
+            <div class="card-body">
               <p>
+                <img class="w-25 rounded-5" src="assets/avatar-4.jpg" alt="" />
+                Miston Wilson
+              </p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <!-- 11 -->
+        <div class="col col-xl-3 col-sm-6">
+          <div class="card">
+            <img src="assets/course-node.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                Beginning Node.js Express &MongoDB Development
+              </h5>
+              <p class="card-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-clock"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+                  />
+                  <path
+                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
+                  />
+                </svg>
+                2h 00m
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-bar-chart"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"
+                  />
+                </svg>
+                Intermediate
+              </p>
+              <p id="star">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -1433,14 +1498,18 @@
                   />
                 </svg>
               </p>
+              <p>$800 $950</p>
             </div>
             <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <p>
+                <img class="w-25 rounded-5" src="assets/avatar-3.jpg" alt="" />
+                Sina Ray
+              </p>
+              <p></p>
             </div>
           </div>
         </div>
-        <!-- 11 -->
+        <!-- 12 -->
         <div class="col col-xl-3 col-sm-6">
           <div class="card">
             <img
@@ -1466,7 +1535,7 @@
                     d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"
                   />
                 </svg>
-                2h 40m
+                1h 00m
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -1479,9 +1548,9 @@
                     d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"
                   />
                 </svg>
-                Advance
+                Beginner
               </p>
-              <p>
+              <p id="star">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -1543,10 +1612,14 @@
                   />
                 </svg>
               </p>
+              <p>$170 $220</p>
             </div>
             <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <p>
+                <img class="w-25 rounded-5" src="assets/avatar-7.jpg" alt="" />
+                Sobo Rikhan
+              </p>
+              <p></p>
             </div>
           </div>
         </div>

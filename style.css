@@ -1,9 +1,21 @@
 header{
 background-color: dodgerblue !important;
+
 }
 #button{
     background-color: rgba(172, 255, 47, 0.534);
 }
 p{
     font-size: 1.3em !important;
+}
+nav p{
+    width: 1.3em !important;
+}
+
+ #star svg{
+color: orange;
+}
+
+section svg{
+    background-color: #ffc67a75!important;
 }
